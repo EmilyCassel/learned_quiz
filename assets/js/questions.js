@@ -1,35 +1,64 @@
-var questions [
+export const questions = [
     {
-        questionWords: "Fill in the blank: A block of reusable code that performs a specific task or calculates a value is a_____?",
-        choices: ["JavaScript", "Function", "Variable", "Boolean", "All of the Above"],
-        questionAnswer: "Function"
-    },
-   
-    {
-        questionWords: "Which is a not a primative value?",
-        choices: ["boolean", "number", "string", "undefined","All of the Above are Primitive Values"],
-        questionAnswer: "All of the Above are Primitive Values"
+        question: ("How many stomachs does a cow have?"),
+        options: ("one", "two", "three", "four", "five"),
+        correct: ("four") 
     },
 
     {
-        questionWords: "Which shows up in the console when a variable has been declared buthas not been assigned a value?",
-        choices: ["null", "not defined", "undefined", "NaN","All of the Above"],
-        questionAnswer: "undefined"
+        question: ("Which large cat lives in prides?"),
+        options: ("tiger", "lion", "cheetah", "panther", "jaguar"),
+        correct: ("lion") 
     },
 
     {
-        questionWords: "A unique and immutabale value that may be used as the key of an object property?",
-        choices: ["symbol", "number", "string", "boolean","All of the Above"],
-        questionAnswer: "symbol",
+        question: ("Which animal plays dead when scared?"),
+        options: ("opposum", "raccoon", "fox", "ground hog", "muskrat"),
+        correct: ("opposum") 
     },
 
     {
-        questionWords: "What is the difference between == and === in JavaScript?",
-        choices: ["== performs type coercion, while === does not", "== compares the values only, while === compares both the values and the types", " == compares both the values and the types, while === compares the values only", "== and === are interchangeable and have the same behavior","All of the Above"],
-        questionAnswer: "== performs type coercion, while === does not",
+        question: ("Which bird can fly?"),
+        options: ("emu", "chicken", "penguin", "hawk", "ostrich"),
+        correct: ("hawk") 
     },
 
+    {
+        question: ("Which animal lives in North America?"),
+        options: ("tiger", "emu", "panda bear", "mountain lion", "elephant"),
+        correct: ("mountain lion") 
+    },
+
+    {
+        question: ("Which animal is used for its wool?"),
+        options: ("shark", "geese", "pig", "sheep", "llama"),
+        correct: ("sheep") 
+    },
+
+    {
+        question: ("Which animal is an omnivore?"),
+        options: ("hawk", "killer whale", "seal", "horse", "bear"),
+        correct: ("bear") 
+    },
+
+    {
+        question: ("Which animal builds its nest in dams?"),
+        options: ("platypus", "salimander", "raccoon", "beaver", "otter"),
+        correct: ("beaver") 
+    },
+
+    {
+        question: ("Which animal lays eggs even though it is a mammal?"),
+        options: ("lizard", "chicken", "bear", "platypus", "skunk"),
+        correct: ("platypus") 
+    },
+
+    {
+        question: ("Which animal uses rocks to open clams and oysters?"),
+        options: ("skunk", "seal", "otter", "rabbit", "bear"),
+        correct: ("otter") 
+    },
+];
 
 
 
-]
